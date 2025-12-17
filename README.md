@@ -1,22 +1,3 @@
-import java.io.*;
-import java.util.*;
-
-// Abstract class
-abstract class Vehicle {
-    double distance, time;
-
-    Vehicle(double distance, double time) {
-        this.distance = distance;
-        this.time = time;
-    }
-
-    abstract double calculateSpeed();
-}
-
-// Car class
-class Car extends Vehicle {
-    Car(double distance, double time) {
-        super(distance, time);
     }
 
     double calculateSpeed() {
